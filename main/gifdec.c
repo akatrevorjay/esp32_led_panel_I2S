@@ -364,7 +364,7 @@ static int
 read_image(gd_GIF *gif)
 {
     uint8_t fisrz;
-    int interlace;
+    /* int interlace; */
 
     /* Image Descriptor. */
     gif->fx = read_num(gif->fd);
@@ -372,7 +372,9 @@ read_image(gd_GIF *gif)
     gif->fw = read_num(gif->fd);
     gif->fh = read_num(gif->fd);
     read(gif->fd, &fisrz, 1);
-    interlace = fisrz & 0x40;
+
+    /* interlace = fisrz & 0x40; */
+
     /* Ignore Sort Flag. */
     /* Local Color Table? */
     if (fisrz & 0x80) {
