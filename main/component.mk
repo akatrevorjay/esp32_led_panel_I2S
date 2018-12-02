@@ -1,1 +1,1 @@
-COMPONENT_ADD_INCLUDEDIRS := esp32-http-server
+#COMPONENT_ADD_INCLUDEDIRS := esp32-http-server
