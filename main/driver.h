@@ -41,7 +41,7 @@
 
 //Change to set the global brightness of the display, range 1-63
 //Warning when set too high: Do not look into LEDs with remaining eye.
-#define BRIGHTNESS 48
+#define BRIGHTNESS 63
 
 
 //Upper half RGB
